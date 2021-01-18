@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://qiuxiangzhi.top</id>
+    <id>https://qianwuyu.github.io</id>
     <title>千物语</title>
-    <updated>2021-01-18T01:24:04.576Z</updated>
+    <updated>2021-01-18T05:40:41.366Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://qiuxiangzhi.top"/>
-    <link rel="self" href="https://qiuxiangzhi.top/atom.xml"/>
+    <link rel="alternate" href="https://qianwuyu.github.io"/>
+    <link rel="self" href="https://qianwuyu.github.io/atom.xml"/>
     <subtitle>无所谓，随缘更新～</subtitle>
-    <logo>https://qiuxiangzhi.top/images/avatar.png</logo>
-    <icon>https://qiuxiangzhi.top/favicon.ico</icon>
+    <logo>https://qianwuyu.github.io/images/avatar.png</logo>
+    <icon>https://qianwuyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 千物语</rights>
     <entry>
         <title type="html"><![CDATA[DDPG(Deterministic Deep Policy Gradient)]]></title>
-        <id>https://qiuxiangzhi.top/post/ddpgdeterministic-deep-policy-gradient/</id>
-        <link href="https://qiuxiangzhi.top/post/ddpgdeterministic-deep-policy-gradient/">
+        <id>https://qianwuyu.github.io/post/ddpgdeterministic-deep-policy-gradient/</id>
+        <link href="https://qianwuyu.github.io/post/ddpgdeterministic-deep-policy-gradient/">
         </link>
         <updated>2020-11-25T15:11:35.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -106,8 +106,8 @@ action_lock			= [-0.1,0.1]^2
     </entry>
     <entry>
         <title type="html"><![CDATA[Actor-Critic]]></title>
-        <id>https://qiuxiangzhi.top/post/actor-critic/</id>
-        <link href="https://qiuxiangzhi.top/post/actor-critic/">
+        <id>https://qianwuyu.github.io/post/actor-critic/</id>
+        <link href="https://qianwuyu.github.io/post/actor-critic/">
         </link>
         <updated>2020-11-12T15:10:57.000Z</updated>
         <content type="html"><![CDATA[<h2 id="lets-come-back-the-policy-gradient">Let's come back the Policy Gradient.</h2>
@@ -182,8 +182,8 @@ action_lock			= [-0.1,0.1]^2
     </entry>
     <entry>
         <title type="html"><![CDATA[Policy Gradient]]></title>
-        <id>https://qiuxiangzhi.top/post/theres-no-good-results-but-i-have-some-thinkings/</id>
-        <link href="https://qiuxiangzhi.top/post/theres-no-good-results-but-i-have-some-thinkings/">
+        <id>https://qianwuyu.github.io/post/theres-no-good-results-but-i-have-some-thinkings/</id>
+        <link href="https://qianwuyu.github.io/post/theres-no-good-results-but-i-have-some-thinkings/">
         </link>
         <updated>2020-10-31T15:09:56.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -280,8 +280,8 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
     </entry>
     <entry>
         <title type="html"><![CDATA[Python学习历程]]></title>
-        <id>https://qiuxiangzhi.top/post/python-xue-xi-li-cheng/</id>
-        <link href="https://qiuxiangzhi.top/post/python-xue-xi-li-cheng/">
+        <id>https://qianwuyu.github.io/post/python-xue-xi-li-cheng/</id>
+        <link href="https://qianwuyu.github.io/post/python-xue-xi-li-cheng/">
         </link>
         <updated>2020-10-30T15:15:45.000Z</updated>
         <content type="html"><![CDATA[<p>慢慢地我也学完了 <code>Python</code> 的基础语法，至于说掌握吸收了多少我也不清楚，浑浑噩噩。</p>
@@ -407,8 +407,8 @@ n. 终于解决了文件复制重命名，开森，然后看看代码，嗯，�
     </entry>
     <entry>
         <title type="html"><![CDATA[Q-Learning's learning note & sample show]]></title>
-        <id>https://qiuxiangzhi.top/post/q-learnings-learning-note-and-sample-show/</id>
-        <link href="https://qiuxiangzhi.top/post/q-learnings-learning-note-and-sample-show/">
+        <id>https://qianwuyu.github.io/post/q-learnings-learning-note-and-sample-show/</id>
+        <link href="https://qianwuyu.github.io/post/q-learnings-learning-note-and-sample-show/">
         </link>
         <updated>2020-10-10T15:08:38.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -470,8 +470,8 @@ n. 终于解决了文件复制重命名，开森，然后看看代码，嗯，�
     </entry>
     <entry>
         <title type="html"><![CDATA[每个中二总会有的焦虑]]></title>
-        <id>https://qiuxiangzhi.top/post/mei-ge-zhong-er-zong-hui-you-de-jiao-lu/</id>
-        <link href="https://qiuxiangzhi.top/post/mei-ge-zhong-er-zong-hui-you-de-jiao-lu/">
+        <id>https://qianwuyu.github.io/post/mei-ge-zhong-er-zong-hui-you-de-jiao-lu/</id>
+        <link href="https://qianwuyu.github.io/post/mei-ge-zhong-er-zong-hui-you-de-jiao-lu/">
         </link>
         <updated>2020-10-01T15:05:26.000Z</updated>
         <content type="html"><![CDATA[<h2 id="不接受平凡事实证明作业太少">不接受平凡？【事实证明作业太少】</h2>
@@ -487,8 +487,8 @@ n. 终于解决了文件复制重命名，开森，然后看看代码，嗯，�
     </entry>
     <entry>
         <title type="html"><![CDATA[Loss of Loss Aversion: Did that loss is loom larger than gain?]]></title>
-        <id>https://qiuxiangzhi.top/post/loss-of-loss-aversion-did-that-loss-is-loom-larger-than-gain/</id>
-        <link href="https://qiuxiangzhi.top/post/loss-of-loss-aversion-did-that-loss-is-loom-larger-than-gain/">
+        <id>https://qianwuyu.github.io/post/loss-of-loss-aversion-did-that-loss-is-loom-larger-than-gain/</id>
+        <link href="https://qianwuyu.github.io/post/loss-of-loss-aversion-did-that-loss-is-loom-larger-than-gain/">
         </link>
         <updated>2020-09-20T15:14:21.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -761,8 +761,8 @@ n. 终于解决了文件复制重命名，开森，然后看看代码，嗯，�
     </entry>
     <entry>
         <title type="html"><![CDATA[杂谈]]></title>
-        <id>https://qiuxiangzhi.top/post/za-tan/</id>
-        <link href="https://qiuxiangzhi.top/post/za-tan/">
+        <id>https://qianwuyu.github.io/post/za-tan/</id>
+        <link href="https://qianwuyu.github.io/post/za-tan/">
         </link>
         <updated>2020-09-14T15:16:52.000Z</updated>
         <content type="html"><![CDATA[<p>9.25</p>
