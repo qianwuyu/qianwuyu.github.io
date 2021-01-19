@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://qianwuyu.github.io</id>
+    <id>https://py.qiuxiangzhi.top</id>
     <title>千物语</title>
-    <updated>2021-01-18T05:40:41.366Z</updated>
+    <updated>2021-01-19T10:39:47.626Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://qianwuyu.github.io"/>
-    <link rel="self" href="https://qianwuyu.github.io/atom.xml"/>
+    <link rel="alternate" href="https://py.qiuxiangzhi.top"/>
+    <link rel="self" href="https://py.qiuxiangzhi.top/atom.xml"/>
     <subtitle>无所谓，随缘更新～</subtitle>
-    <logo>https://qianwuyu.github.io/images/avatar.png</logo>
-    <icon>https://qianwuyu.github.io/favicon.ico</icon>
+    <logo>https://py.qiuxiangzhi.top/images/avatar.png</logo>
+    <icon>https://py.qiuxiangzhi.top/favicon.ico</icon>
     <rights>All rights reserved 2021, 千物语</rights>
     <entry>
+        <title type="html"><![CDATA[EveryDay Mail - Python每日邮件]]></title>
+        <id>https://py.qiuxiangzhi.top/post/everyday-mail-python-mei-ri-you-jian/</id>
+        <link href="https://py.qiuxiangzhi.top/post/everyday-mail-python-mei-ri-you-jian/">
+        </link>
+        <updated>2021-01-19T01:15:40.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>本来想写一些关于同学们都去实习了而我还没方向所感受到的惆怅，然后写着写着情绪开始不对了起来。。这明明是一篇快乐水文，快乐到连比赛也不会做，水到基本是搜索引擎内容无情的整合工具。</p>
+</blockquote>
+<h2 id="明确需求">明确需求</h2>
+<p>Anyway，现在开始每日邮件小目标。假设你有下面的需求，我们该怎么用Python实现？</p>
+<ol>
+<li>想通过脚本每天自动爬取某工作网站上的各类实习信息，方便快速筛选海投；</li>
+<li>想通过邮件每天发给自己，实时更新内容，省去网页一个一个查看；</li>
+</ol>
+<p>看起来上面的需求也只能使用Python完成了，好在Python足够简单且方便，那么我们需要理清上面Python写的难点在哪里。</p>
+<h2 id="爬取网站信息">爬取网站信息</h2>
+<p>首先，我们需要爬取信息。爬取信息部分难以完成的不是代码部分，网上有关爬虫的代码到处都是，但为何我们还是不会爬？因为现在的网站学会了反爬，要么是动态加载内容，要么字库加密，字库加密还分为动态和静态，动态还有循环变动，更别说需要cookies，需要伪装代理，需要缓慢爬取等。。。总之，反爬方式异常多，让我们很是头疼。</p>
+<p>所以，这经常让我们看得懂代码，却不会做。实在令人头疼。那么，以实习僧网站为例，下面我来整理一下关于Python爬取网站信息有哪些步骤。</p>
+<ol>
+<li>
+<p>学会查看并尊重网站的反爬规则，大多数网站都会在自己的网站放上一个robots.txt，以告诉互联网上的各路牛鬼蛇神，那些内容是允许的，虽然通常不会被遵守。如：<a href="https://taobao.com/robots.txt">淘宝网</a>，明确写明禁止百度爬虫爬取根目录下的所有内容，也即禁止百度搜索引擎直接搜索站内内容。（实习僧没有这个文件，故而放肆地作为吧）</p>
+<figure data-type="image" tabindex="1"><img src="https://pic.imgdb.cn/item/600639c73ffa7d37b399824b.png" alt="image-20210119094542759" loading="lazy"></figure>
+</li>
+<li>
+<p>明确需要爬取的信息，熟练使用浏览器的调试工具（如检查元素、查看页面源代码、Xpath路径获取、网络信息）。</p>
+</li>
+</ol>
+<p>待续。。。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[DDPG(Deterministic Deep Policy Gradient)]]></title>
-        <id>https://qianwuyu.github.io/post/ddpgdeterministic-deep-policy-gradient/</id>
-        <link href="https://qianwuyu.github.io/post/ddpgdeterministic-deep-policy-gradient/">
+        <id>https://py.qiuxiangzhi.top/post/ddpgdeterministic-deep-policy-gradient/</id>
+        <link href="https://py.qiuxiangzhi.top/post/ddpgdeterministic-deep-policy-gradient/">
         </link>
         <updated>2020-11-25T15:11:35.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -106,8 +137,8 @@ action_lock			= [-0.1,0.1]^2
     </entry>
     <entry>
         <title type="html"><![CDATA[Actor-Critic]]></title>
-        <id>https://qianwuyu.github.io/post/actor-critic/</id>
-        <link href="https://qianwuyu.github.io/post/actor-critic/">
+        <id>https://py.qiuxiangzhi.top/post/actor-critic/</id>
+        <link href="https://py.qiuxiangzhi.top/post/actor-critic/">
         </link>
         <updated>2020-11-12T15:10:57.000Z</updated>
         <content type="html"><![CDATA[<h2 id="lets-come-back-the-policy-gradient">Let's come back the Policy Gradient.</h2>
@@ -182,8 +213,8 @@ action_lock			= [-0.1,0.1]^2
     </entry>
     <entry>
         <title type="html"><![CDATA[Policy Gradient]]></title>
-        <id>https://qianwuyu.github.io/post/theres-no-good-results-but-i-have-some-thinkings/</id>
-        <link href="https://qianwuyu.github.io/post/theres-no-good-results-but-i-have-some-thinkings/">
+        <id>https://py.qiuxiangzhi.top/post/theres-no-good-results-but-i-have-some-thinkings/</id>
+        <link href="https://py.qiuxiangzhi.top/post/theres-no-good-results-but-i-have-some-thinkings/">
         </link>
         <updated>2020-10-31T15:09:56.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -280,8 +311,8 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
     </entry>
     <entry>
         <title type="html"><![CDATA[Python学习历程]]></title>
-        <id>https://qianwuyu.github.io/post/python-xue-xi-li-cheng/</id>
-        <link href="https://qianwuyu.github.io/post/python-xue-xi-li-cheng/">
+        <id>https://py.qiuxiangzhi.top/post/python-xue-xi-li-cheng/</id>
+        <link href="https://py.qiuxiangzhi.top/post/python-xue-xi-li-cheng/">
         </link>
         <updated>2020-10-30T15:15:45.000Z</updated>
         <content type="html"><![CDATA[<p>慢慢地我也学完了 <code>Python</code> 的基础语法，至于说掌握吸收了多少我也不清楚，浑浑噩噩。</p>
@@ -407,8 +438,8 @@ n. 终于解决了文件复制重命名，开森，然后看看代码，嗯，�
     </entry>
     <entry>
         <title type="html"><![CDATA[Q-Learning's learning note & sample show]]></title>
-        <id>https://qianwuyu.github.io/post/q-learnings-learning-note-and-sample-show/</id>
-        <link href="https://qianwuyu.github.io/post/q-learnings-learning-note-and-sample-show/">
+        <id>https://py.qiuxiangzhi.top/post/q-learnings-learning-note-and-sample-show/</id>
+        <link href="https://py.qiuxiangzhi.top/post/q-learnings-learning-note-and-sample-show/">
         </link>
         <updated>2020-10-10T15:08:38.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -470,8 +501,8 @@ n. 终于解决了文件复制重命名，开森，然后看看代码，嗯，�
     </entry>
     <entry>
         <title type="html"><![CDATA[每个中二总会有的焦虑]]></title>
-        <id>https://qianwuyu.github.io/post/mei-ge-zhong-er-zong-hui-you-de-jiao-lu/</id>
-        <link href="https://qianwuyu.github.io/post/mei-ge-zhong-er-zong-hui-you-de-jiao-lu/">
+        <id>https://py.qiuxiangzhi.top/post/mei-ge-zhong-er-zong-hui-you-de-jiao-lu/</id>
+        <link href="https://py.qiuxiangzhi.top/post/mei-ge-zhong-er-zong-hui-you-de-jiao-lu/">
         </link>
         <updated>2020-10-01T15:05:26.000Z</updated>
         <content type="html"><![CDATA[<h2 id="不接受平凡事实证明作业太少">不接受平凡？【事实证明作业太少】</h2>
@@ -487,8 +518,8 @@ n. 终于解决了文件复制重命名，开森，然后看看代码，嗯，�
     </entry>
     <entry>
         <title type="html"><![CDATA[Loss of Loss Aversion: Did that loss is loom larger than gain?]]></title>
-        <id>https://qianwuyu.github.io/post/loss-of-loss-aversion-did-that-loss-is-loom-larger-than-gain/</id>
-        <link href="https://qianwuyu.github.io/post/loss-of-loss-aversion-did-that-loss-is-loom-larger-than-gain/">
+        <id>https://py.qiuxiangzhi.top/post/loss-of-loss-aversion-did-that-loss-is-loom-larger-than-gain/</id>
+        <link href="https://py.qiuxiangzhi.top/post/loss-of-loss-aversion-did-that-loss-is-loom-larger-than-gain/">
         </link>
         <updated>2020-09-20T15:14:21.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -761,8 +792,8 @@ n. 终于解决了文件复制重命名，开森，然后看看代码，嗯，�
     </entry>
     <entry>
         <title type="html"><![CDATA[杂谈]]></title>
-        <id>https://qianwuyu.github.io/post/za-tan/</id>
-        <link href="https://qianwuyu.github.io/post/za-tan/">
+        <id>https://py.qiuxiangzhi.top/post/za-tan/</id>
+        <link href="https://py.qiuxiangzhi.top/post/za-tan/">
         </link>
         <updated>2020-09-14T15:16:52.000Z</updated>
         <content type="html"><![CDATA[<p>9.25</p>
